@@ -23,7 +23,7 @@ var commands = {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'LRZ Cloud Application' });
 });
 
 router.get('/exercise1_task1', function(req, res, next) {
